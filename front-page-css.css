@@ -4,89 +4,89 @@
     box-sizing:border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-body{
-    background-color: red;
+    body{
+        background-color: red;
+        }
+    .navigation-bar{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px 10px;
+        background-color: lightgray;
     }
-.navigation-bar{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1px 10px;
-    background-color: lightgray;
-}
-.left-content, .right-content{
-   display: flex;
-   align-items: center;
-   padding-top: 25px;
-}
-.navigation{
-    display: flex;
-    list-style: none;
-}
-.navigation li{
-    margin-right: 15px;
-}
-.navigation li a {
-    color: red;
-    text-decoration: none;
-    font-weight: bold;
-}
-.active{
-    color: red;
-}
-.login-image{
-    position: relative;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    overflow: hidden;
-    list-style: none;
-}
-.top-image1{
-    height: 100px;
-    width: 200px;
-    border-radius: 20%;
-}
-.top-image2{
-    height: 100px;
-    width: 200px;
-    border-radius: 20%;
-}
-.top-image3{
-    height: 100px;
-    width: 200px;
-    background-color: lightgray;
-    border-radius: 10%;
-}
-.main-container{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1px 10px;
-    background-color: lightgray;
-}
-.company-symbols{
-   display: flex;
-   align-items: center;
-   padding-top: 25px;
-}
-.images{
-    display: flex;
-    list-style: none;
-}
-.images li{
-    margin-right: 460px;
-}
-.welcome{
-    font-size: 50px;
-    color: lightgray;
-}
-.greetings{
-    color: lightgray;
-    font-size: 25px;
-    padding-left: 30px;
-}
-.registration{
+    .left-content, .right-content{
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .navigation{
+        display: flex;
+        list-style: none;
+    }
+    .navigation li{
+        margin-right: 15px;
+    }
+    .navigation li a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .active{
+        color: red;
+    }
+    .login-image{
+        position: relative;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        list-style: none;
+    }
+    .top-image1{
+        height: 100px;
+        width: 200px;
+        border-radius: 20%;
+    }
+    .top-image2{
+        height: 100px;
+        width: 200px;
+        border-radius: 20%;
+    }
+    .top-image3{
+        height: 100px;
+        width: 200px;
+        background-color: lightgray;
+        border-radius: 10%;
+    }
+    .main-container{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px 10px;
+        background-color: lightgray;
+    }
+    .company-symbols{
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .images{
+        display: flex;
+        list-style: none;
+    }
+    .images li{
+        margin-right:75%;
+    }
+    .welcome{
+        font-size: 50px;
+        color: lightgray;
+    }
+    .greetings{
+        color: lightgray;
+        font-size: 25px;
+        padding-left: 30px;
+    }
+    .registration{
         width: 20%;
         height: 45px;
         background: lightgray;
@@ -99,13 +99,13 @@ body{
         color: red;
         font-weight: 600;
         padding-left: 50px;
-}
-.registration a{
-    color: red;
-    text-decoration: none;
-}
-.login-btn{
-    width: 20%;
+    }
+    .registration a{
+        color: red;
+        text-decoration: none;
+    }
+    .login-btn{
+        width: 20%;
         height: 45px;
         background: lightgray;
         border: none;
@@ -118,13 +118,13 @@ body{
         font-weight: 600;
         padding-left: 100px;
         text-align: center;
-}
-.login-btn a{
-    color: red;
-    text-decoration: none;
-}
-.front-pic{
-    height: 400px;
-    width: 600px;
-}
+    }
+    .login-btn a{
+        color: red;
+        text-decoration: none;
+    }
+    .front-pic{
+        height: 400px;
+        width: 600px;
+    }
 }
